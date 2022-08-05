@@ -1,0 +1,19 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 300px;
+}
